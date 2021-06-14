@@ -103,8 +103,8 @@
 			console.log("This will print in the JavaScript console, which is part of the standard suite of developer tools. JavaScript.");
 
 			console.log("Note that we put the script tags right before the closing body tag.")
-
-			console.log("This should say the tagline" + document.getElementsByClassName("Tagline"));
+			let tagline = document.getElementsByClassName("Tagline");
+			console.log("This should say the tagline: " + tagline[0].innerText);
 		</script>
 	</body>
 </html>
