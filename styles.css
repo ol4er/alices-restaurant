@@ -4,3 +4,6 @@ img {
 .Tagline {
     color: black;
 }
+div {
+    border: 1px solid black;
+}
