@@ -7,3 +7,12 @@ img {
 div {
     border: 1px solid black;
 }
+
+/*
+* Some generalized styling for the page
+*/
+
+body {
+	text-align: center;
+	font-family: Helvetica;
+}
