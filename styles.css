@@ -33,10 +33,11 @@ body {
 	width: 70%;
 	margin: 0 auto;
 	margin-top: 5em;
-	background-color: rgba(0, 0, 0, .75);
+	background-color: rgba(208, 116, 67, 0.65);
 	color: rgb(255, 255, 255);
 	padding: 1em;
 	position: relative;
+    border-radius: 50px;
 }
 
 .Landing h1 {
@@ -84,9 +85,7 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
-.Menu::before {
-    content: "Before pseudo!"
-}
+
 .Information > div {
 	width: 30%;
 	display: inline-block;
@@ -110,6 +109,13 @@ footer {
 	padding: 1em;
 	font-size: 2em;
 	text-transform: uppercase;
+}
+footer p::before {
+    font-weight: bold;
+    content: "Unite ";
+}
+footer p::selection {
+    background-color: coral;
 }
 label {
     width:180px;
