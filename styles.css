@@ -1,13 +1,3 @@
-img {
-    width: 100px;
-}
-.Tagline {
-    color: black;
-}
-div {
-    /* border: 1px solid black; */
-}
-
 /*
 * Some generalized styling for the page
 */
@@ -16,6 +6,7 @@ body {
 	text-align: center;
 	font-family: Helvetica;
 }
+
 .Menu,
 .Contact {
 	background: rgb(255, 255, 255);
@@ -61,6 +52,7 @@ body {
 	font-size: 2em;
 }
 
+
 .Testimonials div {
 	width: 30%;
 	display: inline-block;
@@ -92,7 +84,9 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
-
+.Menu::before {
+    content: "Before pseudo!"
+}
 .Information > div {
 	width: 30%;
 	display: inline-block;
@@ -102,6 +96,7 @@ body {
 	padding: 3em;
 	text-align: initial;
 }
+
 .Contact input,
 .Contact textarea {
 	border: 3px solid black;
